@@ -82,5 +82,10 @@
 .footer {
     height: 50px;
     background-color: crimson;
-    margin: 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.margine-finale {
+    height: 5px;
 }
