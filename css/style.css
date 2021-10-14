@@ -1,0 +1,86 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container-principale {
+    width: 60%;
+    margin: 0 auto;
+    height: 50px;
+    
+}
+
+.intestazione {
+    height: 100px;
+    background-color: blue;
+    margin: 20px 0px;
+   
+
+}
+
+.sottointestazione {
+    height: 400px;
+    background-color: red;
+    margin-bottom: 20px;
+
+
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+    background-color: yellow;
+
+}
+
+.titolo-main{
+    height: 100px;
+    background-color: cadetblue;    
+}
+
+.colonna1 {
+    float: left;
+    height: 400px;
+    width: 20%;
+    background-color: cadetblue;
+} 
+
+ .colonna2 {
+    float: left;
+    height: 400px;
+    width: calc(60% - 20px);
+    background-color: cadetblue;
+} 
+
+ .colonna3 {
+    float: left;
+    height: 400px;
+    width: 20%;
+    background-color: cadetblue; 
+}    
+
+.divisori-orizz {
+    height: 10px;
+    background-color: darkblue;
+
+}
+
+ .divisori-vert{
+    height: 400px;
+    width: 10px;
+    float: left;
+    background-color: darkblue;
+    
+}  
+
+
+
+.footer {
+    height: 50px;
+    background-color: crimson;
+    margin-top: 5px;
+}
